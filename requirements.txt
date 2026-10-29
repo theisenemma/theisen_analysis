@@ -1,0 +1,17 @@
+# Python 3.10 or newer
+numpy>=1.23
+pandas>=2.0
+scipy>=1.9
+matplotlib>=3.6
+seaborn>=0.12
+h5py>=3.7
+statsmodels>=0.13
+jupyter
+
+# Optional: exact Dunnett test in auc_from_hdf5 and tpeak_from_hdf5
+# (without it, these notebooks use a corrected fallback test)
+bioinfokit>=2.1
+
+# Only needed for synapse_clusters_soma_anchored-finalIDs
+neuprint-python>=0.4.25
+scikit-learn>=1.2
